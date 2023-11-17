@@ -10,6 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a68b6834-8f4a-4769-a9ec-e10838515dbc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/0-O" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-bubble_sort.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bubble" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sort.h" beforeDir="false" afterPath="$PROJECT_DIR$/sort.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
