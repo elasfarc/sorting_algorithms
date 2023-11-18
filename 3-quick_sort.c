@@ -56,7 +56,7 @@ size_t partion(int *array, size_t left, size_t right,
 		}
 	swap(array, left, right, source_arr, source_size);
 
-	return left;
+	return (left);
 }
 
 /**
