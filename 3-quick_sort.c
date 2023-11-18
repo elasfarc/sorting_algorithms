@@ -44,26 +44,19 @@ void swap(int *array, size_t n1_idx, size_t n2_idx,
 size_t partion(int *array, size_t left, size_t right,
 	int *source_arr, size_t source_size)
 {
-	size_t pivot = right;
 
-	right--;
+	size_t j;
+	int pivot = array[right];
 
-	while (1)
-	{
-		while (array[left] <= array[pivot] && left < pivot)
+	for (j = left; j < right; j++)
+		if (array[j] < pivot)
+		{
+			swap(array, left, j, source_arr, source_size);
 			left++;
-		while (array[right] >= array[pivot] && right != 0)
-			right--;
+		}
+	swap(array, left, right, source_arr, source_size);
 
-		if (left >= right)
-			break;
-
-		swap(array, left, right, source_arr, source_size);
-		left++;
-	}
-	swap(array, pivot, left, source_arr, source_size);
-
-	return (left);
+	return left;
 }
 
 /**
