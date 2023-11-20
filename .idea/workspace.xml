@@ -10,7 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a68b6834-8f4a-4769-a9ec-e10838515dbc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/3-quick_sort.c" beforeDir="false" afterPath="$PROJECT_DIR$/3-quick_sort.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quick" beforeDir="false" afterPath="$PROJECT_DIR$/quick" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort.h" beforeDir="false" afterPath="$PROJECT_DIR$/sort.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +51,14 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager">
-    <configuration name="m" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sorting_algorithms" TARGET_NAME="3-quick_sort.c" CONFIG_NAME="m">
-      <option name="compilerOptions" value="print_list.c" />
-      <option name="sourceFile" value="$PROJECT_DIR$/3-quick_sort.c" />
+    <configuration name="m" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sorting_algorithms" TARGET_NAME="100-shell_sort.c" CONFIG_NAME="m">
+      <option name="compilerOptions" value="print_array.c" />
+      <option name="sourceFile" value="$PROJECT_DIR$/100-shell_sort.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -69,7 +73,10 @@
       <option name="presentableId" value="Default" />
       <updated>1700186929572</updated>
       <workItem from="1700186930606" duration="4248000" />
-      <workItem from="1700194731465" duration="6289000" />
+      <workItem from="1700194731465" duration="6682000" />
+      <workItem from="1700328080286" duration="482000" />
+      <workItem from="1700383337288" duration="7659000" />
+      <workItem from="1700451010711" duration="443000" />
     </task>
     <servers />
   </component>
@@ -161,65 +168,74 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/3-quick_sort.c</url>
-          <line>49</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/3-quick_sort.c</url>
-          <line>57</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/3-quick_sort.c</url>
-          <line>58</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/3-quick_sort.c</url>
-          <line>59</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/3-quick_sort.c</url>
-          <line>60</line>
+          <line>47</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/3-quick_sort.c</url>
-          <line>67</line>
+          <line>52</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/3-quick_sort.c</url>
-          <line>68</line>
+          <line>53</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/3-quick_sort.c</url>
-          <line>111</line>
+          <line>89</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/3-quick_sort.c</url>
-          <line>107</line>
+          <line>85</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/3-quick_sort.c</url>
-          <line>109</line>
+          <line>87</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/3-quick_sort.c</url>
-          <line>110</line>
+          <line>88</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/100-shell_sort.c</url>
+          <line>112</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/100-shell_sort.c</url>
+          <line>113</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/100-shell_sort.c</url>
+          <line>114</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/100-shell_sort.c</url>
+          <line>115</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/100-shell_sort.c</url>
+          <line>108</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CppFileRunConfiguration">
-        <watch expression="*array @ 3" />
+        <watch expression="*arr @ 10" language="ObjectiveC" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
