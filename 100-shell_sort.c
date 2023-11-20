@@ -16,7 +16,7 @@ void swap(int *array, size_t n1_idx, size_t n2_idx);
  */
 void shell_sort(int *array, size_t size)
 {
-	unsigned int gap, i, last_idx = size - 1;
+	unsigned int gap, i;
 
 	if (!array || size < 2)
 		return;
@@ -25,7 +25,7 @@ void shell_sort(int *array, size_t size)
 
 	for (; gap >= 1; gap = get_sequence_gap(BACKWARD, gap))
 	{
-		for (i = 0; (i < gap && i < last_idx - gap); i++)
+		for (i = 0; (i < size - gap); i++)
 			insertion_sort(array, i, (int)gap, size);
 		print_array(array, size);
 	}

@@ -11,9 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a68b6834-8f4a-4769-a9ec-e10838515dbc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quick" beforeDir="false" afterPath="$PROJECT_DIR$/quick" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort.h" beforeDir="false" afterPath="$PROJECT_DIR$/sort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100-shell_sort.c" beforeDir="false" afterPath="$PROJECT_DIR$/100-shell_sort.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell" beforeDir="false" afterPath="$PROJECT_DIR$/shell" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
