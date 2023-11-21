@@ -25,6 +25,9 @@ void merge_sort(int *array, size_t size)
 	int *array_cp = NULL;
 	size_t i;
 
+	if (!array || size < 2)
+		return;
+
 	array_cp = malloc(sizeof(int) * size);
 	if (!array_cp)
 		return;
