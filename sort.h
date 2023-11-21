@@ -29,15 +29,16 @@ typedef enum mode
 } MODE;
 
 /**
- * merge_print_mode - Enumeration specifying the print mode for merged arrays
+ * enum merge_print_mode - Enumeration specifying the print mode
+ * for merged arrays
  *
- * @FORWARD: Represents the print mode before the merge operation
- * @BACKWARD: Represents the print mode after the merge operation
+ * @BEFORE: Represents the print mode before the merge operation
+ * @AFTER: Represents the print mode after the merge operation
  */
- typedef enum merge_print_mode
- {
+typedef enum merge_print_mode
+{
 	BEFORE, AFTER
- } MERGE_PRINT_MODE;
+} MERGE_PRINT_MODE;
 
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
