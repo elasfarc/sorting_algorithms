@@ -28,6 +28,17 @@ typedef enum mode
 	FORWARD, BACKWARD
 } MODE;
 
+/**
+ * merge_print_mode - Enumeration specifying the print mode for merged arrays
+ *
+ * @FORWARD: Represents the print mode before the merge operation
+ * @BACKWARD: Represents the print mode after the merge operation
+ */
+ typedef enum merge_print_mode
+ {
+	BEFORE, AFTER
+ } MERGE_PRINT_MODE;
+
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
@@ -38,5 +49,6 @@ void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size);
 
 #endif
