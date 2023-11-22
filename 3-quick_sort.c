@@ -16,7 +16,7 @@ void swap(int *array, size_t n1_idx, size_t n2_idx,
 {
 	int temp = array[n1_idx];
 
-	if (n1_idx == n2_idx)
+	if (n1_idx == n2_idx || array[n1_idx] == array[n2_idx])
 		return;
 
 	array[n1_idx] = array[n2_idx];
